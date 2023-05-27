@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai05</title>
+    <link rel="stylesheet" href="./bai05.css">
+</head>
+<body>
+    <div class="container">
+      <form action="#" method="post">
+        <table>
+          <tr>
+            <td>
+              <input type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="First name"
+                required/>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="lastnam"
+                id="lastnam"
+                placeholder="Last Name"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </td>
+            <td>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Your Phone"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <select name="country" id="country" disabled>
+                <option value="country">Select country</option>
+              </select>
+            </td>
+            <td>
+              <select name="course" id="course" disabled>
+                <option value="course">Select course</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+        <div>
+          <textarea
+            name="content"
+            id="content"
+            cols="30"
+            rows="5"
+            placeholder="Content"
+          ></textarea>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    
+    
+</body>
+</html>

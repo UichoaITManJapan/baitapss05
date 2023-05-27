@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}
+.container{
+   width: 900px;
+   margin: 100px auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+p{
+    color: gray;
+    margin: 5px 0;
+}
+p>span{
+    color: dodgerblue;
+}
+.content-left p b {
+    font-size: 20px;
+  }
+  .content-left p:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .content-left {
+    float: left;
+    width: 300px;
+    height: auto;
+    border: 1px solid #e5e1e1;
+    box-shadow: 0 0 10px #b6b4b4;
+    margin-right: 40px;
+    padding: 20px;
+  }
